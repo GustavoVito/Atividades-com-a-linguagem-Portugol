@@ -1,0 +1,15 @@
+Algoritmo "Positivo ou negativo"
+Var
+a, b, c :real
+Inicio
+escreval ("Digite o primeiro valor.")
+leia (a)
+escreval ("Digite o segundo valor")
+leia (b)
+c <- a - b
+se c >= 0 entao
+escreval (c, " é positivo")
+senao
+escreval (c, " é negativo")
+fimse
+Fimalgoritmo
