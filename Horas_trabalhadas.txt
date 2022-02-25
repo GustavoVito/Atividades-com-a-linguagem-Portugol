@@ -1,0 +1,18 @@
+Algoritmo "Hora extra"
+Var
+hr, hre, sal, sall: real
+Inicio
+escreval ( "Digite as horas trabalhadas do funcionario:" )
+leia (hr)
+escreval ( "Digite o salario por hora do funcionario:" )
+leia (sal)
+hre <- hr - 160
+se hr > 160 entao
+   sall <- hr * sal + (hre * (sal/2))
+   escreval( "O salario do funcionario vai ser ", sall)
+senao
+     sall <- hr * sal
+     escreval( "O salario do funcionario vai ser ", sall)
+fimse
+
+Fimalgoritmo
