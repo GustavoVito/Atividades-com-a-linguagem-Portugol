@@ -1,0 +1,15 @@
+Algoritmo "Maçãs"
+Var
+preco, precoo, total: real
+quant : inteiro
+Inicio
+escreval ( "Quantas maçãs serão compradas?" )
+leia (quant)
+se quant >= 12 entao
+   total <- quant * 1.00
+   escreval ( "O total vai ser: ", total)
+senao
+     total <- quant * 1.30
+     escreval ( "O total vai ser:", total)
+fimse  
+Fimalgoritmo
